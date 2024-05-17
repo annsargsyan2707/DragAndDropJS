@@ -1,4 +1,6 @@
 .container {
+  display: flex;
+  gap: 10px;
   width: 400px;
   height: 400px;
   background-color: lightgray;
@@ -13,4 +15,8 @@
   top: 50px;
   left: 50px;
   cursor: grab;
+}
+.other {
+  top: 50px;
+  left: 180px;
 }
